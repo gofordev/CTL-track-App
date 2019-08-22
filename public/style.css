@@ -1,0 +1,182 @@
+/*============================
+		General Style
+==============================*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 14px;
+    line-height: 17px;
+    word-wrap: break-word;
+    color: #666;
+    background: #fff;
+    overflow-x: hidden;
+    font-weight: 300;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*============================
+		Typography
+==============================*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 10px 0 10px;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none !important;
+    color: #343536;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+a:hover {
+    text-decoration: none
+}
+
+p {
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    color: #888;
+    line-height: 18px;
+    font-weight: 400;
+    left: -1px;
+}
+
+/*============================
+		Sign Up CSS
+==============================*/
+.signup-sec {
+    background: url(assets/images/authback.png) no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+.signup-form {
+    background: rgba(0, 0, 0, .2);
+    padding: 30px;
+    box-shadow: 5px 0 15px #777;
+    border: 2px solid #777;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.signup-form h2 {
+    color: #fff;
+    margin-bottom: 35px;
+    font-size: 28px;
+}
+
+.signup-form input {
+    border-radius: 0;
+    height: 45px;
+    font-size: 18px;
+    color: #333;
+    background: #fff;
+}
+
+.signup button {
+    padding: 10px 30px;
+    border-radius: 0;
+
+}
+
+.signup-form p {
+    font-size: 15px;
+    margin-top: 50px;
+    color: #333;
+}
+
+.signup-form p a {
+    color: #00f;
+}
+
+
+/*============================
+		Log in CSS
+==============================*/
+.login-sec {
+    background: url(assets/images/authback.png) no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+.login-form {
+    background: rgba(0, 0, 0, .2);
+    padding: 30px;
+    box-shadow: 5px 0 15px #777;
+    border: 2px solid #777;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.login-form h2 {
+    color: #fff;
+    margin-bottom: 35px;
+    font-size: 32px;
+}
+
+.login-form input {
+    border-radius: 0;
+    height: 40px;
+    font-size: 18px;
+    color: #333;
+    background: #fff;
+    position: relative;
+    padding-left: 30px;
+}
+
+.login-form span {
+    color: #28a745;
+    font-size: 18px;
+    margin-top: -28px;
+    margin-left: 8px;
+    position: absolute;
+}
+
+.login-form input[type="checkbox"] {
+    height: auto;
+}
+
+.login-form button {
+    padding: 8px 30px;
+    border-radius: 0;
+    margin-bottom: 25px;
+
+}
+
+.login-form p {
+    font-size: 15px;
+    color: #333;
+}
+
+.login-form p a {
+    color: #00f;
+}
