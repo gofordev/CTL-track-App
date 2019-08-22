@@ -180,3 +180,180 @@ p {
 .login-form p a {
     color: #00f;
 }
+
+/*============================
+		Map CSS
+==============================*/
+
+.col-md-3,
+.col-md-9,
+.col-md-12 {
+    margin: 0;
+    padding: 0;
+}
+
+.map-bottom table {
+    font-size: 15px;
+}
+
+.map-bottom thead {
+    background: #3878c7;
+
+}
+
+.map-bottom table.table-dark td,
+.map-bottom table.table-dark th,
+.map-bottom table.table-dark thead th {
+    border-color: #32383e;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #fff;
+}
+
+.map-bottom table.table-dark thead tr{
+    height: 70px;
+}
+
+.map-bottom table.table-dark thead th {
+    font-size: 30px;
+}
+
+.map {
+    height: 100%;
+    width: 100%;
+}
+
+.left-side select {
+    width: 95%;
+    display: table;
+    margin: 0 auto;
+}
+
+.left-side input {
+    width: 95%;
+    font-size: 17px;
+    display: table;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.data-store-table {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.data-store-table tr td:first-child i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.data-store-table a {
+    color: #fff;
+    font-size: 18px;
+}
+
+.data-store-table span {
+    background: #efefef;
+    color: #000;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+
+.list {
+    height: 30%;
+}
+
+.list .table {
+    margin-bottom: 0px;
+}
+/*Middle*/
+
+.filter {
+    height: 20%;
+}
+
+.filter .form-group:first-child {
+    padding: 5%;
+    border-bottom: 2px solid #333;
+}
+
+.filter .filter-select {
+    padding: 10px;
+}
+
+.fixed-middle {
+    height: 25vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.fixed-middle .middle:not(:first-child) {
+    border-top: 2px solid #333;
+    margin: 5px;
+    padding: 5px;
+}
+
+.text-left {
+    color: #333;
+}
+
+.middle ul {
+    margin: 0;
+    padding: 0;
+}
+
+.middle .bg-dk li {
+    list-style: none;
+    background: #333;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.middle .bg-dk li a {
+    color: #fff;
+    font-size: 15px;
+}
+
+.middle .bg-dk li a i {
+    margin-right: 10px;
+}
+
+.circle {
+    margin-top: 15px;
+}
+
+.sml-lst {
+    padding-left: 5px;
+}
+
+.sml-lst ul {
+    border: 1px solid #333;
+    border-radius: 5px;
+    display: inline-block;
+}
+.sml-lst li {
+    display: inline-block;
+}
+.sml-lst li a {
+    color: #fff;
+    font-size: 20px;
+    width: 40px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+}
+.sml-lst li:nth-child(1) a {
+    background: red;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+.sml-lst li:nth-child(2) a {
+    background: #333;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}

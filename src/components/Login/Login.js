@@ -31,7 +31,6 @@ class Login extends Component {
     }
 
     loginHandle = () => {
-        console.log("dskljf",this.state)
         this.props.history.push("/map")
     }
 

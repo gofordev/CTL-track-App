@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Redirect, Route } from "react-router-dom";
 import Login from './components/Login/Login'
 import Signup from './components/Signup/Signup'
 import Reset from './components/Reset/Reset'
-import CustomMap from './pages/Map'
+import Map from './pages/Map'
 
 function PrivateRoute ({component: Component, authed, ...rest}) {
   return (
@@ -33,7 +33,7 @@ class App extends Component {
           <Route exact path='/login' component={Login} />
           <Route exact path='/signup' component={Signup} />
           <Route exact path='/reset' component={Reset} />
-          <PrivateRoute authed={this.state.authed} path='/map' component={CustomMap} />
+          <PrivateRoute authed={this.state.authed} path='/map' component={Map} />
         </div>
       </Router>
     );
